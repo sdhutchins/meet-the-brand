@@ -1,0 +1,48 @@
+---
+title: "Brand demo"
+css: styles.css
+---
+
+This site is rendered by **Quarto** using the repo-root [`_brand.yml`](../_brand.yml) ([brand.yml docs](https://posit-dev.github.io/brand-yml/)).
+
+## Core palette
+
+<div class="swatch-grid">
+  <div class="swatch light" style="background:#C07E96">fairy-tale</div>
+  <div class="swatch light" style="background:#B78899">puce</div>
+  <div class="swatch" style="background:#915A70">rosy-amethyst</div>
+  <div class="swatch" style="background:#6A3D52">magenta-haze</div>
+  <div class="swatch" style="background:#2A5678">berkeley-blue</div>
+</div>
+
+## Accent palette
+
+<div class="swatch-grid">
+  <div class="swatch light" style="background:#C69CAA">dusty-rose</div>
+  <div class="swatch light" style="background:#F3ECE8">soft-ivory</div>
+  <div class="swatch light" style="background:#FBF8F6">soft-cream</div>
+  <div class="swatch" style="background:#222A31">charcoal-gray</div>
+  <div class="swatch light" style="background:#95AFC2">soft-blue</div>
+  <div class="swatch light" style="background:#9FB1BF">dusty-sky</div>
+</div>
+
+## Neutral accents
+
+<div class="swatch-grid">
+  <div class="swatch" style="background:#616B76">gamma</div>
+  <div class="swatch" style="background:#7A838C">lightgray</div>
+  <div class="swatch" style="background:#915A70">delta</div>
+  <div class="swatch light" style="background:#F1EBE7">epsilon</div>
+  <div class="swatch light" style="background:#FFFFFF; border: 1px solid #F1EBE7">white</div>
+</div>
+
+## Typography
+
+Body text uses **IBM Plex Sans** on a soft-cream background. Headings use **Outfit** in magenta-haze (primary). Here is a [styled link](https://github.com/sdhutchins/meet-the-brand) and inline `code` in Source Code Pro.
+
+```r
+# Monospace block
+palette <- c("berkeley-blue", "rosy-amethyst", "soft-cream")
+```
+
+See **Components** in the navbar for buttons and alerts themed from `_brand.yml`.

@@ -1,0 +1,24 @@
+project:
+  type: website
+  brand: ../_brand.yml
+  render:
+    - index.qmd
+    - components.qmd
+  preview:
+    port: 7688
+    browser: true
+
+website:
+  title: "Meet the Brand"
+  navbar:
+    background: primary
+    foreground: white
+    left:
+      - href: index.qmd
+        text: Home
+      - href: components.qmd
+        text: Components
+
+format:
+  html:
+    toc: false
