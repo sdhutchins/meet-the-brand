@@ -1,0 +1,76 @@
+meta:
+  name: Personal tools
+  link:
+    home: https://www.shauritahutchins.com/
+    docs: https://github.com/sdhutchins/meet-the-brand
+    github: https://github.com/sdhutchins/meet-the-brand
+    bluesky: https://bsky.app/profile/shaurita.bsky.social
+  description: |
+    Shaurita D. Hutchins is a computational biologist at the University of Alabama at Birmingham.
+color:
+  # Semantic theme — anchor the brand in plum and navy, then reserve the
+  # lighter rose and ivory tones for supportive surfaces rather than body text.
+  primary: magenta-haze
+  foreground: charcoal-gray
+  background: soft-cream
+  secondary: berkeley-blue
+  tertiary: lightgray
+  info: rosy-amethyst
+  success: rosy-amethyst
+  warning: puce
+  danger: hover-strong
+
+  palette:
+    magenta-haze: "#6A3D52"
+    fairy-tale: "#C07E96"
+    puce: "#B78899"
+    rosy-amethyst: "#915A70"
+    berkeley-blue: "#2A5678"
+    hover-strong: "#8A4F67"
+    dusty-rose: "#C69CAA"
+    soft-ivory: "#F3ECE8"
+    soft-cream: "#FBF8F6"
+    charcoal-gray: "#222A31"
+    soft-blue: "#95AFC2"
+    dusty-sky: "#9FB1BF"
+    gamma: "#616B76"
+    lightgray: "#7A838C"
+    delta: "#915A70"
+    epsilon: "#F1EBE7"
+    white: "#FFFFFF"
+
+typography:
+  fonts:
+    - family: IBM Plex Sans
+      source: google
+      weight: [400, 600, 700]
+    - family: Outfit
+      source: google
+      weight: [400, 500, 700]
+    - family: Source Code Pro
+      source: google
+      weight: [400, 500, 600]
+
+  base: IBM Plex Sans
+  headings:
+    family: Outfit
+    weight: 600
+    color: primary
+  monospace: Source Code Pro
+  link:
+    color: secondary
+    decoration: underline
+
+defaults:
+  bootstrap:
+    defaults:
+      navbar-bg: "#6A3D52"
+      navbar-fg: "#FBF8F6"
+      navbar-hover-color: "#C07E96"
+      body-bg: "#FBF8F6"
+      body-color: "#222A31"
+      link-color: "#2A5678"
+      link-hover-color: "#8A4F67"
+      border-color: "#DCC7CE"
+      primary: "#6A3D52"
+      secondary: "#2A5678"
