@@ -8,7 +8,6 @@ My personal [brand.yml](https://posit-dev.github.io/brand-yml/) theme for Quarto
 
 Copy `_brand.yml` into any project root that supports brand.yml theming.
 
-
 ## Viewing the brand site
 
 ```bash
