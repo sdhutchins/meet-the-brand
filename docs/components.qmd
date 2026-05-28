@@ -1,0 +1,81 @@
+---
+title: "Components"
+css: styles.css
+---
+
+Bootstrap components use semantic colors from the repo-root [`_brand.yml`](../_brand.yml). **Primary** is always **magenta-haze** (`#6A3D52`); the page background is **soft-cream** (`#FBF8F6`).
+
+## Semantic map
+
+| Role | Palette | Hex |
+|------|---------|-----|
+| primary | magenta-haze | `#6A3D52` |
+| secondary | berkeley-blue | `#2A5678` |
+| tertiary | lightgray | `#7A838C` |
+| success | rosy-amethyst | `#915A70` |
+| info | rosy-amethyst | `#915A70` |
+| warning | puce | `#B78899` |
+| danger | hover-strong | `#8A4F67` |
+
+## Buttons
+
+<button type="button" class="btn btn-primary">Primary — magenta-haze</button>
+<button type="button" class="btn btn-secondary">Secondary — berkeley-blue</button>
+<button type="button" class="btn btn-success">Success — rosy-amethyst</button>
+<button type="button" class="btn btn-info">Info — rosy-amethyst</button>
+<button type="button" class="btn btn-warning">Warning — puce</button>
+<button type="button" class="btn btn-danger">Danger — hover-strong</button>
+
+## Alerts
+
+::: {.alert .alert-primary}
+**Primary** — magenta-haze (`#6A3D52`). Navbar and `.btn-primary` use this role.
+:::
+
+::: {.alert .alert-secondary}
+**Secondary** — berkeley-blue (`#2A5678`).
+:::
+
+::: {.alert .alert-success}
+**Success** — rosy-amethyst (`#915A70`).
+:::
+
+::: {.alert .alert-info}
+**Info** — rosy-amethyst (`#915A70`).
+:::
+
+::: {.alert .alert-warning}
+**Warning** — puce (`#B78899`).
+:::
+
+::: {.alert .alert-danger}
+**Danger** — hover-strong (`#8A4F67`).
+:::
+
+## Badges
+
+<span class="badge text-bg-primary">primary</span>
+<span class="badge text-bg-secondary">secondary</span>
+<span class="badge text-bg-success">success</span>
+<span class="badge text-bg-info">info</span>
+<span class="badge text-bg-warning">warning</span>
+<span class="badge text-bg-danger">danger</span>
+
+## Card
+
+::: {.card style="max-width: 22rem;"}
+::: {.card-header}
+Card on soft-cream background
+:::
+::: {.card-body}
+**Heading** in Outfit (primary color).
+
+Body text in IBM Plex Sans. [Link](https://github.com/sdhutchins/meet-the-brand) uses berkeley-blue.
+:::
+:::
+
+## Callout
+
+::: {.callout-note title="Navbar"}
+The navbar uses **magenta-haze** with soft-cream text. The document body uses **soft-cream** (`#FBF8F6`).
+:::
